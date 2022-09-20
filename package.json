@@ -1,6 +1,6 @@
 {
   "name": "pluralize-literals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "types": "index.d.ts",
   "repository": "https://github.com/itaywol/PluralizeLiterals.git",
   "author": "Itay Wolfish <wo.itay@gmail.com>",

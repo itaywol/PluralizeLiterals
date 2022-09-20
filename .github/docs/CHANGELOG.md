@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/itaywol/PluralizeLiterals/compare/v1.0.1...v1.0.2) (2022-09-20)
+
+
+### Bug Fixes
+
+* **release workflow:** fix semantic release ([054d6c9](https://github.com/itaywol/PluralizeLiterals/commit/054d6c90317b4a154ccdf0e67558c04b54e53177))
+
 ## [1.0.1](https://github.com/itaywol/PluralizeLiterals/compare/v1.0.0...v1.0.1) (2022-09-20)
 
 
