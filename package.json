@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "test": "tsc test/test.ts --noEmit",
-    "build": "tsc",
+    "clear": "rm -rf ./lib",
+    "build": "yarn run clear && tsc",
     "prepare": "yarn build",
     "lint": "eslint index.ts"
   },
