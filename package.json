@@ -1,0 +1,26 @@
+{
+  "name": "PluralizeLiterals",
+  "version": "1.0.0",
+  "types": "index.d.ts",
+  "repository": "git@github.com:itaywol/PluralizeLiterals.git",
+  "author": "Itay Wolfish <wo.itay@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc test/test.ts --noEmit",
+    "build": "tsc",
+    "prepare": "yarn build",
+    "lint": "eslint index.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "commitlint": "^17.1.2",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
+    "typescript": "*"
+  }
+}
