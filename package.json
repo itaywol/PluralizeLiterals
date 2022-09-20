@@ -1,6 +1,6 @@
 {
   "name": "pluralize-literals",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "typings": "lib/index.d.ts",
   "files": [
     "lib/index.d.ts"
