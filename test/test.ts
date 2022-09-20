@@ -1,4 +1,7 @@
 import { Pluralize } from "../src/index";
 
-const regularS: Pluralize<"cat"> = "cats";
-const wolfToWolves: Pluralize<"wolf"> = "wolves";
+const cats: Pluralize<"cat"> = "cats";
+const wolves: Pluralize<"wolf"> = "wolves";
+const volcanoes: Pluralize<"volacano"> = "volacanoes";
+const sheep: Pluralize<"sheep"> = "sheep";
+const fezzes: Pluralize<"fez"> = "fezzes";
