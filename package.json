@@ -5,6 +5,18 @@
   "files": [
     "lib/index.d.ts"
   ],
+  "keywords": [
+    "pluralize",
+    "type",
+    "typescript",
+    "literals",
+    "literal",
+    "pluralization",
+    "typs",
+    "plural",
+    "plurals"
+  ],
+  "readmeFilename": "README.md",
   "repository": "https://github.com/itaywol/PluralizeLiterals.git",
   "author": "Itay Wolfish <wo.itay@gmail.com>",
   "license": "MIT",
