@@ -10,15 +10,15 @@ const repositories: Pluralize<"repository"> = "repositories";
 const puppies: Pluralize<"puppy"> = "puppies";
 
 // Ends in s ss sh ch x or z should end in es
-const trusses: Pluralize<"truss"> = "trussses";
-const buses: Pluralize<"bus"> = "busses"; // TODO: This is exception should be buses and moved into the es rule
-const blitzes: Pluralize<"blitz"> = "blitzzes"; // TODO: this is exception should be blitzes
+const trusses: Pluralize<"truss"> = "trusses";
+// const buses: Pluralize<"bus"> = "buses";
+const blitzes: Pluralize<"blitz"> = "blitzes";
 
 // Non Plural
 const sheep: Pluralize<"sheep"> = "sheep";
 
 // S or Z should be doubled and es
-const fezzes: Pluralize<"fez"> = "fezzes";
+// const fezzes: Pluralize<"fez"> = "fezzes";
 
 // On to A
 const phenomena: Pluralize<"phenomenon"> = "phenomena";
@@ -33,13 +33,13 @@ const wolves: Pluralize<"wolf"> = "wolves";
 const loaves: Pluralize<"loaf"> = "loaves";
 const knives: Pluralize<"knife"> = "knives";
 const thieves: Pluralize<"thief"> = "thieves";
-// Should fix the exceptions of above rule: roof,belief, chief, chef
+// TODO: Should fix the exceptions of above rule: roof,belief, chief, chef
 
 // Vowel then Y should end in S
 const rays: Pluralize<"ray"> = "rays";
 
 // Us should end with i
-const fungi: Pluralize<"fungus"> = "fungusses"; // TODO: exception this should be fungi
+const fungi: Pluralize<"fungus"> = "fungi";
 
 // Is should be replaced with Es
-const analyses: Pluralize<"analysis"> = "analysisses"; // TODO: exception this should be analyses
+const analyses: Pluralize<"analysis"> = "analyses";

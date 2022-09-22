@@ -74,27 +74,27 @@ type PluralizeJustAddS<Target extends string> = Target extends string
 
 export type Pluralize<Target extends string> =
   NonPlurlaized<Target> extends never
-    ? PluralizeEndingInOn<Target> extends never
-      ? PluralizeEndingInS<Target> extends never
-        ? PluralizeEndingInZ<Target> extends never
+    ? PluralizeEndingInVowelY<Target> extends never
+      ? PluralizeEndingInConsonantY<Target> extends never
+        ? PluralizeEndingInOn<Target> extends never
           ? PluralizeEndingInIs<Target> extends never
             ? PluralizeEndingInUs<Target> extends never
-              ? PluralizeEndingInO<Target> extends never
-                ? PluralizeEndingInVowelY<Target> extends never
-                  ? PluralizeEndingInConsonantY<Target> extends never
-                    ? PluralizeEndingInFOrFe<Target> extends never
-                      ? PluralizeShouldEndWithEs<Target> extends never
+              ? PluralizeShouldEndWithEs<Target> extends never
+                ? PluralizeEndingInFOrFe<Target> extends never
+                  ? PluralizeEndingInS<Target> extends never
+                    ? PluralizeEndingInZ<Target> extends never
+                      ? PluralizeEndingInO<Target> extends never
                         ? PluralizeJustAddS<Target> extends never
                           ? never
                           : PluralizeJustAddS<Target>
-                        : PluralizeShouldEndWithEs<Target>
-                      : PluralizeEndingInFOrFe<Target>
-                    : PluralizeEndingInConsonantY<Target>
-                  : PluralizeEndingInVowelY<Target>
-                : PluralizeEndingInO<Target>
+                        : PluralizeEndingInO<Target>
+                      : PluralizeEndingInZ<Target>
+                    : PluralizeEndingInS<Target>
+                  : PluralizeEndingInFOrFe<Target>
+                : PluralizeShouldEndWithEs<Target>
               : PluralizeEndingInUs<Target>
             : PluralizeEndingInIs<Target>
-          : PluralizeEndingInZ<Target>
-        : PluralizeEndingInS<Target>
-      : PluralizeEndingInOn<Target>
+          : PluralizeEndingInOn<Target>
+        : PluralizeEndingInConsonantY<Target>
+      : PluralizeEndingInVowelY<Target>
     : NonPlurlaized<Target>;
