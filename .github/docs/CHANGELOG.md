@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/itaywol/PluralizeLiterals/compare/v1.0.4...v1.0.5) (2022-09-22)
+
+
+### Bug Fixes
+
+* **package json:** keywords ([3fbbcc6](https://github.com/itaywol/PluralizeLiterals/commit/3fbbcc63e890fb6be32730b5960341b4d824dc2f))
+
 ## [1.0.4](https://github.com/itaywol/PluralizeLiterals/compare/v1.0.3...v1.0.4) (2022-09-22)
 
 
