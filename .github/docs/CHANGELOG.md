@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/itaywol/PluralizeLiterals/compare/v1.0.3...v1.0.4) (2022-09-22)
+
+
+### Bug Fixes
+
+* **pluralization order:** fix broken plurals ([e8d81b7](https://github.com/itaywol/PluralizeLiterals/commit/e8d81b7ea4c03bb4a11ca4a8f8439d965e7d12b9))
+
 ## [1.0.3](https://github.com/itaywol/PluralizeLiterals/compare/v1.0.2...v1.0.3) (2022-09-20)
 
 
